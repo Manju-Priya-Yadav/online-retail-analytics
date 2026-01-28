@@ -1,10 +1,17 @@
-# Ignore raw data
-data/*.csv
-data/*.zip
+# data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
-# Python
-__pycache__/
+# jupyter
 .ipynb_checkpoints/
 
-# Environment
-.env
+# python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
